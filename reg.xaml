@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp11.reg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11"
+        mc:Ignorable="d"
+        Title="Регистрация" Height="320" Width="200"  ResizeMode="NoResize" Background="black">
+
+    <StackPanel HorizontalAlignment="Center" Margin="10">
+        <TextBlock HorizontalAlignment="Center" Text="Введите свой логин" Foreground="Gold"></TextBlock>
+        <TextBox x:Name="login" Foreground="Silver"></TextBox>
+        <Label HorizontalAlignment="Center"  Content="Введите свой пароль" Foreground="Gold"></Label>
+        <PasswordBox x:Name="pass"  Foreground="Silver" ></PasswordBox>
+        <Label HorizontalAlignment="Center"  Content="Введите свою почту" Foreground="Gold"></Label>
+        <TextBox x:Name="mail" Foreground="Silver"></TextBox>
+        <Label HorizontalAlignment="Center"  Content="Введите свою роль" Foreground="Gold"></Label>
+        <ComboBox DisplayMemberPath="rolename"  x:Name="srole" Foreground="Silver"></ComboBox>
+        <Button x:Name="ok" Content="Зарегистрироватся!" Click="ok_Click"></Button>
+
+    </StackPanel>
+</Window>

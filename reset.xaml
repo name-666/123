@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp11.reset"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11"
+        mc:Ignorable="d"
+        Title="reset" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textin" Background="Aquamarine" Margin="178,186,222,175" Foreground="Red" FontSize="26" />
+        <TextBox x:Name="text" Background="Aquamarine" Margin="178,284,222,68" Foreground="Red" FontSize="26" />
+        <Button Content="OK!!!" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" Click="Button_Click" ></Button>
+    </Grid>
+</Window>

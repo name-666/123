@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11"
+        mc:Ignorable="d"
+        Title="Главное окно" Height="350" Width="500" Background="Black" ResizeMode="NoResize">
+
+
+    <Grid Margin="7">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Добро пожаловать на главную станицу" Foreground="Gold" HorizontalAlignment="Center" FontSize="25"></Label>
+        <Button Grid.Row="1" x:Name="exit" Content="Enter" Height="auto" Click="exit_Click"></Button>
+        <Button Grid.Row="2" x:Name="reg" Content="Registration"  Height="auto" Click="reg_Click" ></Button>
+        <Button Grid.Row="3" x:Name="reset" Content="Reset password"  Height="auto" Click="login_Click" ></Button>
+    </Grid>
+</Window>
